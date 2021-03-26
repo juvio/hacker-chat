@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "user01": "node index.js --username juvio --room sala1 --hostUri http://localhost:9898",
+    "user02": "node index.js --username ju --room sala1 --hostUri http://localhost:9898",
+    "user03": "node index.js --username ana --room sala2 --hostUri http://localhost:9898",
+    "user04": "node index.js --username joao --room sala2 --hostUri http://localhost:9898",
+    "user05": "node index.js --username ana --room sala2",
+    "user06": "node index.js --username joao --room sala2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
